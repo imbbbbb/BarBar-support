@@ -9,6 +9,10 @@
 [下载最新版](https://github.com/imbbbbb/BarBar-support/releases/latest) ·
 [反馈问题](https://github.com/imbbbbb/BarBar-support/issues/new/choose)
 
+<a href="https://ko-fi.com/P4W31ZZFU0">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%20Ko--fi%20%E4%B8%8A%E6%94%AF%E6%8C%81%E6%88%91-72a4f2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="在 Ko-fi 上支持我" height="38">
+</a>
+
 </div>
 
 ---
@@ -74,6 +78,17 @@ xattr -dr com.apple.quarantine /Applications/BarBar.app
 [Issue](https://github.com/imbbbbb/BarBar-support/issues/new/choose)。
 
 报 bug 时麻烦带上 macOS 版本、BarBar 版本，以及是哪个 app 的图标出的问题。
+
+## 支持开发
+
+BarBar 免费。如果它帮你把菜单栏收拾清爽了，可以请我喝杯咖啡 —— 这也是往
+开发者签名和公证那 99 美元年费上凑的实际办法。
+
+<a href="https://ko-fi.com/P4W31ZZFU0">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%20Ko--fi%20%E4%B8%8A%E6%94%AF%E6%8C%81%E6%88%91-72a4f2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="在 Ko-fi 上支持我" height="38">
+</a>
+
+不支持也完全没关系，提个 Issue 说说哪里不好用，一样有价值。
 
 ## 关于源码
 
