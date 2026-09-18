@@ -81,8 +81,8 @@ xattr -dr com.apple.quarantine /Applications/BarBar.app
 
 ## 支持开发
 
-BarBar 免费。如果它帮你把菜单栏收拾清爽了，可以请我喝杯咖啡 —— 这也是往
-开发者签名和公证那 99 美元年费上凑的实际办法。
+BarBar 目前免费，但不承诺将来一直免费。如果它帮你把菜单栏收拾清爽了，
+可以请我喝杯咖啡。
 
 <a href="https://ko-fi.com/P4W31ZZFU0">
   <img src="https://img.shields.io/badge/%E5%9C%A8%20Ko--fi%20%E4%B8%8A%E6%94%AF%E6%8C%81%E6%88%91-72a4f2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="在 Ko-fi 上支持我" height="38">
