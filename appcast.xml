@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>BarBar</title>
+    <link>https://imbbbbb.github.io/BarBar-support/appcast.xml</link>
+    <description>BarBar 的更新源</description>
+    <language>zh-CN</language>
+  </channel>
+</rss>
