@@ -71,6 +71,9 @@ xattr -dr com.apple.quarantine /Applications/BarBar.app
 任何权限。「下方面板」形态如果要显示图标的样子，还需要**屏幕录制**权限；不给也能用，
 只是面板里显示为名字。
 
+BarBar 不收集任何信息，也没有服务器。这两个权限具体用在哪、每天一次的检查更新到底发了
+什么，都写在[隐私政策](PRIVACY.md)里。
+
 ## 万一箭头不见了
 
 按 <kbd>⌥</kbd><kbd>⌘</kbd><kbd>B</kbd>。箭头不在菜单栏上时，这个快捷键会把它拉回来
