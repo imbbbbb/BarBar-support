@@ -9,6 +9,8 @@
 [下载最新版](https://github.com/imbbbbb/BarBar-support/releases/latest) ·
 [反馈问题](https://github.com/imbbbbb/BarBar-support/issues/new/choose)
 
+**简体中文** · [繁體中文](README.zh-Hant.md) · [English](README.en.md)
+
 <a href="https://ko-fi.com/P4W31ZZFU0">
   <img src="https://img.shields.io/badge/%E5%9C%A8%20Ko--fi%20%E4%B8%8A%E6%94%AF%E6%8C%81%E6%88%91-72a4f2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="在 Ko-fi 上支持我" height="38">
 </a>
