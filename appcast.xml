@@ -6,6 +6,26 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.5</title>
+      <pubDate>Tue, 22 Sep 2026 00:02:57 +0800</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>这一版修两个用户报上来的显示问题。</p>
+        <p>修复</p>
+        <p>· 浅色模式配深色壁纸时，箭头是黑的，画在深色的菜单栏上等于看不见。感谢 @wxjerry 报告。</p>
+        <p>· 下方面板里的图标偏小、大小还不齐。原因是按状态项的点击区缩放，而那块区域上下有三到五成是空白，各家还不一样。现在按图标本身的尺寸画，和菜单栏上一致。感谢 @junjiego2 报告。</p>
+        <p>新增</p>
+        <p>· 「设置 → 通用 → 面板图标大小」：标准 / 大 / 特大。标准就是和菜单栏上一样大。</p>
+        <p>改进</p>
+        <p>· 设置界面的说明文字全面精简。</p>
+        <p>· 「关于」里的隐私说明改掉一处错误：检查更新只发送 BarBar 的版本号，不发送 macOS 版本。三份隐私政策同步更正。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.5/BarBar-0.1.5.dmg" type="application/octet-stream" sparkle:edSignature="RDQd08UdEHR5r4htD6marGmPtymi1s84d7z0Q+GRBuN8zSdsdv+k0sZllwlqymvbjM7fMTInkrWMCCuj8ulqAw==" length="1888548"/>
+    </item>
+    <item>
       <title>0.1.4</title>
       <pubDate>Mon, 21 Sep 2026 09:02:06 +0800</pubDate>
       <sparkle:version>5</sparkle:version>
