@@ -114,8 +114,7 @@ app's icon misbehaved.
 
 ## Support development
 
-BarBar is free today, with no promise that it stays free forever. If it made your
-menu bar liveable, you can buy me a coffee.
+If BarBar made your menu bar liveable, you can buy me a coffee.
 
 <a href="https://ko-fi.com/P4W31ZZFU0">
   <img src="https://img.shields.io/badge/Support%20me%20on%20Ko--fi-72a4f2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support me on Ko-fi" height="38">

@@ -69,8 +69,10 @@ BarBar checks once a day for a new version. That request goes to:
 - `https://github.com/imbbbbb/BarBar-support/releases/...` (only downloaded when
   there really is a new version)
 
-The request carries BarBar's version number and your macOS version, used to decide
-whether a given release suits you. No identifiers, nothing that could pick you out.
+The request carries only BarBar's version number (as `BarBar/0.1.4 Sparkle/2.x`).
+Your macOS version never leaves your machine — whether a release supports your system
+is stated in the appcast that comes back, and BarBar compares it locally. No
+identifiers, nothing that could pick you out.
 
 GitHub, as the server, sees your IP address the way it would for any web request.
 BarBar has no say in that, and it is no different from any other download.

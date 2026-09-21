@@ -104,8 +104,7 @@ BarBar 不收集任何資訊，也沒有伺服器。這兩個權限具體用在�
 
 ## 支持開發
 
-BarBar 目前免費，但不承諾將來一直免費。如果它幫你把選單列收拾清爽了，
-可以請我喝杯咖啡。
+如果 BarBar 幫你把選單列收拾清爽了，可以請我喝杯咖啡。
 
 <a href="https://ko-fi.com/P4W31ZZFU0">
   <img src="https://img.shields.io/badge/%E5%9C%A8%20Ko--fi%20%E4%B8%8A%E6%94%AF%E6%8C%81%E6%88%91-72a4f2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="在 Ko-fi 上支持我" height="38">

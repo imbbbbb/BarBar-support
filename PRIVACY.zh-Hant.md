@@ -52,7 +52,7 @@ BarBar 每天會檢查一次有沒有新版本。這次請求送往：
 - `https://imbbbbb.github.io/BarBar-support/appcast.xml`（更新資訊）
 - `https://github.com/imbbbbb/BarBar-support/releases/...`（真的有新版本時才下載）
 
-請求裡帶的是 BarBar 的版本號和你的 macOS 版本，用來判斷這個版本適不適合你。沒有任何識別碼、沒有任何能認出是你的東西。
+請求裡只帶 BarBar 的版本號（形如 `BarBar/0.1.4 Sparkle/2.x`）。系統版本不會離開你的機器 —— 「這個新版本支不支援你的 macOS」是下載回來的更新說明裡寫著的，BarBar 在本機自己比對。沒有任何識別碼、沒有任何能認出是你的東西。
 
 GitHub 作為伺服器會像對待任何一次網頁存取那樣看到你的 IP 位址，這一點 BarBar 管不了，也和其他任何下載行為沒有區別。
 
