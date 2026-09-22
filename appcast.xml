@@ -6,6 +6,23 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.6</title>
+      <pubDate>Tue, 22 Sep 2026 12:34:20 +0800</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>这一版修一个会让输入法图标凭空消失的问题。</p>
+        <p>修复</p>
+        <p>· 输入法、Spotlight、Siri 会跟着一起被藏掉，而设置里又找不到它们，除了「全部展开」没有任何办法找回。感谢 @AndrewXiang 报告。</p>
+        <p>新增</p>
+        <p>· 这三项现在是列表里的普通条目，可以像别的图标一样拖进常显 / 隐藏 / 永久隐藏，默认常显。</p>
+        <p>· 播放中、专注模式不再被隐藏。它们和控制中心挤在同一个 bundle 底下，拆不开，所以只能一律显示；要关请用 macOS 自带的「控制中心」设置。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.6/BarBar-0.1.6.dmg" type="application/octet-stream" sparkle:edSignature="5uqI3JWfAZxkAWzh3+fkpvRpsdoexIpP/nNyquWXZcnbGj8Gm9IuJiCZajMdoUdjBzgxQHXvSq2LDFNC1M9oDg==" length="1890874"/>
+    </item>
+    <item>
       <title>0.1.5</title>
       <pubDate>Tue, 22 Sep 2026 00:02:57 +0800</pubDate>
       <sparkle:version>6</sparkle:version>
