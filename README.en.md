@@ -103,6 +103,10 @@ Stated plainly, so you don't spend an afternoon trying:
 - **Hiding works per app, not per icon.** If one app puts several icons up there,
   they hide and show together.
 - A few icons the system refuses to hide at all; BarBar marks those in Settings.
+- **While BarBar is running, clicking the date and time in the menu bar won't open
+  Notification Center.** macOS treats the hiding mechanism BarBar uses as an
+  assessment (exam) mode, and assessment mode disables Notification Center. Quitting
+  BarBar restores it. See [#4](https://github.com/imbbbbb/BarBar-support/issues/4).
 
 ## Feedback
 
