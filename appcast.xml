@@ -6,6 +6,22 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.7</title>
+      <pubDate>Thu, 15 Oct 2026 16:20:15 +0800</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>这一版可以换 BarBar 自己的图标了。</p>
+        <p>新增</p>
+        <p>· 「设置 → 通用 → BarBar 图标样式」：箭头 / 竖线 / 圆点 / 省略号。感谢 @q33603 的建议。</p>
+        <p>改进</p>
+        <p>· 快捷键录制框可以只用键盘操作：Tab 切进来，空格或回车开始录。VoiceOver 也能读出它。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.7/BarBar-0.1.7.dmg" type="application/octet-stream" sparkle:edSignature="WfzP/uL9WRxKyayTf0/b8jrbXY1a1asOsZgJ0UHo1Im+ULn/x5SweqVgCk+Q1xvfNDjYtlWNjXtsEOtEbWT7DQ==" length="1901631"/>
+    </item>
+    <item>
       <title>0.1.6</title>
       <pubDate>Tue, 22 Sep 2026 12:34:20 +0800</pubDate>
       <sparkle:version>7</sparkle:version>
