@@ -6,6 +6,31 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.8</title>
+      <pubDate>Fri, 16 Oct 2026 23:58:44 +0800</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>这一版图标好看多了，「永久隐藏」也真正做到了不出现。</p>
+        <p>新增</p>
+        <p>· 「永久隐藏」的图标会彻底离开菜单栏，展开时也不会出现。想找回来，拖回别的分组即可（需要重启一下那个 app）。</p>
+        <p>· 不再有任何图标处于「隐藏」分组时，点日期时间又能打开通知中心了。</p>
+        <p>· 可以切换界面语言：简体中文 / 繁體中文 / English，默认跟随系统。</p>
+        <p>· 「关于」里新增「重新授权」和「恢复默认设置」，权限出问题或想从头来过时用。</p>
+        <p>改进</p>
+        <p>· 设置和下拉面板里改用各个软件自己的图标，更清晰，也不再漏掉某些图标。</p>
+        <p>· 下拉面板展开、收起带上了更自然的动画。</p>
+        <p>· 时钟、Wi-Fi、Siri 这类系统图标 BarBar 管不了，设置里加了一个按钮，直接跳到系统设置里关掉它们。</p>
+        <p>· 「自动检查更新」挪到了「关于」里，和「检查更新」放在一起。</p>
+        <p>修复</p>
+        <p>· 下拉面板模式下，菜单栏偶尔会卡在「全部展开」收不回去。</p>
+        <p>· BarBar 抓取的图标现在只保存在内存里，和隐私政策的说法一致。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.8/BarBar-0.1.8.dmg" type="application/octet-stream" sparkle:edSignature="gVddvfsa4MLf3VYPHPpddtfDVK8sS6yZhTqaQWVvKYdIM5kGvy4wKEPc6khb8HM2+Z/1GvtSD9ZNFXwDHYgsDg==" length="1913647"/>
+    </item>
+    <item>
       <title>0.1.7</title>
       <pubDate>Thu, 15 Oct 2026 16:20:15 +0800</pubDate>
       <sparkle:version>8</sparkle:version>
