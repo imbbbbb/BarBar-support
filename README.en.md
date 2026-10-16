@@ -27,7 +27,13 @@ Written natively. Hiding icons needs neither Accessibility nor Screen Recording.
 
 ## Two things
 
-**One — pick your icons.** In Settings, choose what stays visible and what gets hidden.
+**One — pick your icons.** In Settings, drag each icon into one of three groups:
+
+- **Always visible** — stays on the menu bar;
+- **Hidden** — tucked away until you click the arrow;
+- **Always hidden** — gone for good. BarBar flips that app's own "show menu bar icon"
+  setting, the same thing that happens when you <kbd>⌘</kbd>-drag an icon off the menu bar.
+  After dragging it back to another group, restart that app to get the icon back.
 
 **Two — reveal them.** Click the arrow on the menu bar, or press
 <kbd>⌥</kbd><kbd>⌘</kbd><kbd>B</kbd>. Two reveal styles, your call:
@@ -75,9 +81,8 @@ xattr -dr com.apple.quarantine /Applications/BarBar.app
 </details>
 
 On first launch BarBar asks for **Accessibility** — that's how it reads which icons
-are on the menu bar. Hiding itself needs no permission at all. The "panel below"
-style additionally wants **Screen Recording** to draw the icons as they really look;
-without it BarBar still works, the panel just shows names instead.
+are on the menu bar. Hiding itself needs no permission at all. **Screen Recording**
+is only used for the menu bar preview in Settings; BarBar works fine without it.
 
 BarBar collects nothing and has no server. Exactly what those two permissions are
 for, and what the once-a-day update check actually sends, is spelled out in the
@@ -102,11 +107,12 @@ Stated plainly, so you don't spend an afternoon trying:
   menu bar, or the icon vanishes.
 - **Hiding works per app, not per icon.** If one app puts several icons up there,
   they hide and show together.
-- A few icons the system refuses to hide at all; BarBar marks those in Settings.
-- **While BarBar is running, clicking the date and time in the menu bar won't open
-  Notification Center.** macOS treats the hiding mechanism BarBar uses as an
-  assessment (exam) mode, and assessment mode disables Notification Center. Quitting
-  BarBar restores it. See [#4](https://github.com/imbbbbb/BarBar-support/issues/4).
+- System icons like Clock, Wi-Fi and Siri are out of BarBar's reach. You can turn them
+  off in System Settings → Menu Bar; there's a shortcut button at the bottom of BarBar's Settings.
+- **While anything is in the Hidden group, clicking the date and time in the menu bar
+  won't open Notification Center.** macOS treats the hiding mechanism BarBar uses as an
+  assessment (exam) mode, and assessment mode disables Notification Center. Using only
+  Always visible and Always hidden avoids it. See [#4](https://github.com/imbbbbb/BarBar-support/issues/4).
 
 ## Feedback
 

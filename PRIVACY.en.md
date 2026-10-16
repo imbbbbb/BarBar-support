@@ -1,6 +1,6 @@
 # BarBar Privacy Policy
 
-Last updated: 2026-09-20
+Last updated: 2026-10-16
 
 [简体中文](PRIVACY.md) · [繁體中文](PRIVACY.zh-Hant.md) · **English**
 
@@ -38,20 +38,20 @@ Without this permission, BarBar's icon list is empty.
 
 ### Screen Recording
 
-Used to **draw the icons**.
+Used to **show what the menu bar looks like right now**.
 
-In the "panel below" reveal style, hidden icons have to be redrawn in BarBar's own
-panel. Only the system knows what a menu bar icon looks like — many are live
-(battery percentage, network speed) and there is no original artwork to fetch — so
-the only option is to capture that small rectangle of the menu bar once.
+The menu bar preview in Settings, and the few items that have no application icon
+of their own (the input menu, for example), need to show how they actually look on
+the menu bar. Only the system knows that and there is no original artwork to fetch,
+so the only option is to capture that small rectangle of the menu bar once.
+Everywhere else BarBar uses each app's own application icon, no capture needed.
 
 BarBar captures exactly those few dozen by few dozen points of the menu bar. It does
 not capture windows, does not record the screen, does not save anything. Captured
 bitmaps live in memory only and vanish when the process quits; nothing is written to
 disk.
 
-Without this permission, the panel shows each app's own application icon instead —
-less faithful, but fully functional.
+Without this permission, the preview in Settings stays empty; everything else works.
 
 ### Hiding icons needs no permission at all
 
