@@ -6,6 +6,21 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.9</title>
+      <pubDate>Mon, 26 Oct 2026 20:03:56 +0800</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>从下拉面板点开的图标，用完会自己收回去了。</p>
+        <p>改进</p>
+        <p>· 从下拉面板点开的图标，菜单关闭后会自动收回，不用再点一下箭头。</p>
+        <p>· 有些软件的图标需要回到菜单栏上由你亲手点开，BarBar 会在菜单栏上留它一会儿等你点，没点就自动收起。等多久可以在「设置 → 通用 → 等你点击的时间」里调，2～10 秒，默认 2 秒。点开之后会一直留到菜单关闭。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.9/BarBar-0.1.9.dmg" type="application/octet-stream" sparkle:edSignature="wrt7bV6lgbiSHyFDXCdhOJZeoRbkfpwgPEtwy3hjNKb22xZMix0uyeCgYI5p61J8iLkHuFfF26uAZr12kd5qBg==" length="1919259"/>
+    </item>
+    <item>
       <title>0.1.8</title>
       <pubDate>Fri, 16 Oct 2026 23:58:44 +0800</pubDate>
       <sparkle:version>9</sparkle:version>
