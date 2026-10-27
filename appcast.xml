@@ -6,6 +6,20 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.10</title>
+      <pubDate>Tue, 27 Oct 2026 20:10:22 +0800</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>修复：重启电脑后图标全部露出来、隐藏不生效。</p>
+        <p>修复</p>
+        <p>· 设置过「永久隐藏」的图标真正消失之后，下次启动 BarBar（比如重启电脑）就什么都不隐藏了，菜单栏上的图标全部露出来。现在启动后会正常隐藏。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.10/BarBar-0.1.10.dmg" type="application/octet-stream" sparkle:edSignature="NSFXsVUiofjlDsfIakQvXJjBm524yd4Iv0z7ySllyZkXP1W3Kb9E03SLFIQs7EOna3oJrpGLg+s80h1nfFZ/AA==" length="1919137"/>
+    </item>
+    <item>
       <title>0.1.9</title>
       <pubDate>Mon, 26 Oct 2026 20:03:56 +0800</pubDate>
       <sparkle:version>10</sparkle:version>
