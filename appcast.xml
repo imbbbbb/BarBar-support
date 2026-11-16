@@ -6,6 +6,23 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.11</title>
+      <pubDate>Tue, 17 Nov 2026 01:15:48 +0800</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>修复：重启电脑后图标仍然全部露出来；下拉面板里的图标可以右键了。</p>
+        <p>修复</p>
+        <p>· 菜单栏上只要有一个图标 BarBar 抓不到样子，启动后就一直在等，什么都不隐藏。现在最多等 10 秒就开始隐藏。</p>
+        <p>· 诊断信息里新增「没抓到位图」一行，列出抓不到样子的软件，方便排查。</p>
+        <p>改进</p>
+        <p>· 在下拉面板里右键一个图标，它会回到菜单栏上等你右键，用来打开那个软件自己的右键菜单。等多久同样由「设置 → 通用 → 等你点击的时间」决定。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.11/BarBar-0.1.11.dmg" type="application/octet-stream" sparkle:edSignature="TC2o5ts2NPh611CJkLsZ/bcBOFP0Uc5KA74B5dOHkZLKjXaRxtR9YcpwHvdaDxG0G88hRRIZixEtk+h6Y6ngAQ==" length="1915909"/>
+    </item>
+    <item>
       <title>0.1.10</title>
       <pubDate>Tue, 27 Oct 2026 20:10:22 +0800</pubDate>
       <sparkle:version>11</sparkle:version>
