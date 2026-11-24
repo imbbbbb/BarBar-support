@@ -6,6 +6,23 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.12</title>
+      <pubDate>Tue, 24 Nov 2026 22:45:21 +0800</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>改进：在下拉面板里右键图标，直接弹出那个软件的右键菜单。</p>
+        <p>改进</p>
+        <p>· 在下拉面板里右键一个图标，大多数软件会直接弹出它自己的右键菜单，不用再回菜单栏上去点，也不会移动鼠标。</p>
+        <p>· 有些软件（比如 Longshot）没法被直接打开菜单，BarBar 会读出它的菜单内容，在你右键的位置画一份一样的；选哪一项，就让那个软件执行哪一项。</p>
+        <p>· 右键菜单出来时，下拉面板不再先收起，等菜单关了再收。</p>
+        <p>· 实在读不到菜单的少数软件，仍和上一版一样：图标回到菜单栏上，等你自己右键。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.12/BarBar-0.1.12.dmg" type="application/octet-stream" sparkle:edSignature="L7tTlsR10PiyZHhUCyb7D4TsUIOgpPZO+p6/577y00RPoxwTvzPeuQZSe+MX+7C7N0oylY+lI79LUyGsmgcHCw==" length="1945947"/>
+    </item>
+    <item>
       <title>0.1.11</title>
       <pubDate>Tue, 17 Nov 2026 01:15:48 +0800</pubDate>
       <sparkle:version>12</sparkle:version>
