@@ -6,6 +6,21 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.13</title>
+      <pubDate>Fri, 27 Nov 2026 23:18:03 +0800</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>修复：部分实际已隐藏的图标被误标为「藏不掉」。</p>
+        <p>修复</p>
+        <p>· 菜单栏图标隐藏后，左边的常显图标往右补位占据它原来的位置，BarBar 会把补位图标误当成它没藏掉，在设置和诊断信息里标上锁。</p>
+        <p>· 已经退出或移回「常显」的软件，不再残留在诊断信息的「拒绝被隐藏的 app」里。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.13/BarBar-0.1.13.dmg" type="application/octet-stream" sparkle:edSignature="lRQZLXubKuMp+Lwj2TnmCsEDIOYYt4EZv4YE/W+6D4JMmEtQvXtgYcBaHSsmvnqut4zX9fT0TsG8jnC+fjA7DA==" length="1950252"/>
+    </item>
+    <item>
       <title>0.1.12</title>
       <pubDate>Tue, 24 Nov 2026 22:45:21 +0800</pubDate>
       <sparkle:version>13</sparkle:version>
