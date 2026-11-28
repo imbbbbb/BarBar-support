@@ -35,11 +35,11 @@ Written natively. Hiding icons needs neither Accessibility nor Screen Recording.
   setting, the same thing that happens when you <kbd>⌘</kbd>-drag an icon off the menu bar.
   After dragging it back to another group, restart that app to get the icon back.
 
-**Two — reveal them.** Click the arrow on the menu bar, or press
+**Two — reveal them.** Click the arrow on the menu bar, enable hover-to-reveal, or press
 <kbd>⌥</kbd><kbd>⌘</kbd><kbd>B</kbd>. Two reveal styles, your call:
 
-- **In the menu bar** — hidden icons spread back out along the menu bar itself;
-- **In a panel below** — a small panel drops below the menu bar with the icons in it.
+- **In the menu bar** — hidden icons spread back out along the menu bar itself, with optional auto-collapse when idle;
+- **In a panel below** — a panel drops below the menu bar supporting left-click, right-click menus, and direct drag-to-reorder.
 
 ## Install
 
@@ -113,6 +113,10 @@ Stated plainly, so you don't spend an afternoon trying:
   won't open Notification Center.** macOS treats the hiding mechanism BarBar uses as an
   assessment (exam) mode, and assessment mode disables Notification Center. Using only
   Always visible and Always hidden avoids it. See [#4](https://github.com/imbbbbb/BarBar-support/issues/4).
+- **Apps or background helpers running outside `/Applications` have their menu bar icons
+  removed by macOS while hiding is active.** That's enforced by the system visibility
+  service itself; moving the app into `/Applications`, or using only Always visible and
+  Always hidden, avoids it.
 
 ## Feedback
 
@@ -129,9 +133,6 @@ If BarBar made your menu bar liveable, you can buy me a coffee.
 <a href="https://ko-fi.com/P4W31ZZFU0">
   <img src="https://img.shields.io/badge/Support%20me%20on%20Ko--fi-72a4f2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support me on Ko-fi" height="38">
 </a>
-
-Not supporting is completely fine too — an issue telling me what's awkward to use
-is worth just as much.
 
 ## About the source
 

@@ -1,6 +1,6 @@
 # BarBar Privacy Policy
 
-Last updated: 2026-10-16
+Last updated: 2026-11-28
 
 [简体中文](PRIVACY.md) · [繁體中文](PRIVACY.zh-Hant.md) · **English**
 
@@ -51,7 +51,7 @@ not capture windows, does not record the screen, does not save anything. Capture
 bitmaps live in memory only and vanish when the process quits; nothing is written to
 disk.
 
-Without this permission, the preview in Settings stays empty; everything else works.
+Without this permission, the preview in Settings falls back to each app's application icon; everything else works.
 
 ### Hiding icons needs no permission at all
 
@@ -77,7 +77,7 @@ identifiers, nothing that could pick you out.
 GitHub, as the server, sees your IP address the way it would for any web request.
 BarBar has no say in that, and it is no different from any other download.
 
-You can turn the automatic check off under Settings → General → Updates. Once off,
+You can turn the automatic check off under Settings → About → Version. Once off,
 BarBar does not reach out to any network address on its own.
 
 ## Where your settings live
