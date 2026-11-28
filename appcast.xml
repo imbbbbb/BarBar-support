@@ -6,6 +6,23 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.15</title>
+      <pubDate>Sat, 28 Nov 2026 16:41:26 +0800</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>升级下拉面板原生玻璃质感与流体动画，修复低分屏边框毛刺与黑边。</p>
+        <p>改进</p>
+        <p>· 下拉面板改用 macOS 27 原生玻璃视图与纯柔和外投影，消除非 Retina 屏幕下的圆角毛刺与深色模式黑色外描边。</p>
+        <p>· 全新设计下拉面板流体展开、图标扇出、按压与拖拽弹性动画，并为菜单栏控制图标补上展开/收起翻转过渡动效。</p>
+        <p>修复</p>
+        <p>· 修复开启「鼠标悬停展开」时点击箭头收起后偶发自动重弹的问题。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.15/BarBar-0.1.15.dmg" type="application/octet-stream" sparkle:edSignature="ZQ3qSrfMDHUzZ9UdjGPJTUaXpayrPpoBwF2uR6mzI6VR6kShaB4BkU4Luygm0wbwlvNvki3gNdn6X3dpep7AAA==" length="2004399"/>
+    </item>
+    <item>
       <title>0.1.14</title>
       <pubDate>Sat, 28 Nov 2026 08:01:58 +0800</pubDate>
       <sparkle:version>15</sparkle:version>
