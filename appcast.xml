@@ -6,6 +6,26 @@
     <description>BarBar 的更新源</description>
     <language>zh-CN</language>
     <item>
+      <title>0.1.14</title>
+      <pubDate>Sat, 28 Nov 2026 08:01:58 +0800</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <meta charset="utf-8">
+        <p>面板直接拖拽排序、鼠标悬停展开、本行展开自动收起，并大幅提速启动隐藏。</p>
+        <p>新增</p>
+        <p>· 下方面板支持直接按住图标拖动调整顺序，图标过多超出屏幕宽度时自动折行。</p>
+        <p>· 「设置 → 通用 → 启动与呼出」新增「鼠标悬停展开」开关。</p>
+        <p>· 「本行展开」模式下新增「自动收起」选项（5 / 10 / 15 / 30 秒，离开菜单栏且无菜单打开时自动收起）。</p>
+        <p>· 未装在「应用程序」文件夹下运行、隐藏期间被 macOS 连带移除图标的应用，在设置页与诊断信息中明确提示原因。</p>
+        <p>改进与修复</p>
+        <p>· 启动后无需再等抓取菜单栏位图，扫描完成立即隐藏；屏幕录制改为纯可选权限，无权限时预览与面板均正常显示。</p>
+        <p>· 修复多显示器菜单栏窗口识别、单符号窄图标点击热区、拖拽排序保留未运行应用顺序及多处定时器竞态。</p>
+      ]]></description>
+      <enclosure url="https://github.com/imbbbbb/BarBar-support/releases/download/v0.1.14/BarBar-0.1.14.dmg" type="application/octet-stream" sparkle:edSignature="fjaipC5GAPTx9N1e8an8ge+xyI41L2uxKYIWUyirjVu2k9j7DySEgATH26cc2FESX3udVu66m6+MH2p4BYg1Aw==" length="1993055"/>
+    </item>
+    <item>
       <title>0.1.13</title>
       <pubDate>Fri, 27 Nov 2026 23:18:03 +0800</pubDate>
       <sparkle:version>14</sparkle:version>
