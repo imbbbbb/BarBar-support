@@ -1,1 +1,8 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
+contact_links:
+  - name: 常见问题与系统限制 / FAQ & System Limits
+    url: https://github.com/imbbbbb/BarBar-support#faq
+    about: "找不到图标、通知中心打不开、提示「已损坏」、个别软件图标自动消失等 / Missing icon, Notification Center, Gatekeeper prompt, disappearing app icons"
+  - name: 安装说明 / Installation Guide
+    url: https://github.com/imbbbbb/BarBar-support#install
+    about: "正确的安装位置、首次右键打开与权限说明 / Installing into Applications, first-launch approval and permissions"

@@ -41,6 +41,8 @@
 
 还可以自选 4 种控制图标样式（箭头 / 竖线 / 圆点 / 省略号）。日常后台运行不截屏、不联网收集任何数据，详见[隐私政策](PRIVACY.md)。
 
+<a id="install"></a>
+
 ## 安装
 
 系统要求：**macOS 27 及以上**。
@@ -59,6 +61,8 @@ xattr -dr com.apple.quarantine /Applications/BarBar.app
 ```
 
 </details>
+
+<a id="faq"></a>
 
 ## 常见问题与系统限制
 

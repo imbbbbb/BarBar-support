@@ -1,53 +1,86 @@
-name: 报告问题
-description: BarBar 哪里不对劲
-labels: [bug]
+name: 问题反馈 / Bug report
+description: BarBar 某个功能不对、界面显示异常或闪退 / Something in BarBar is broken, looks wrong or crashes
+title: "[问题] "
+labels: ["bug"]
 body:
-  - type: textarea
-    id: what
+  - type: markdown
     attributes:
-      label: 出了什么问题
-      description: 说说你做了什么、期望发生什么、实际发生了什么。
-      placeholder: |
-        例：点箭头展开后，Surge 的图标显示成一个空白方块。
-    validations:
-      required: true
+      value: |
+        如果是**某款软件的图标藏不住、自动消失，或在面板里左键/右键点不开**，请改用[应用兼容模板](https://github.com/imbbbbb/BarBar-support/issues/new?template=app.yml)，那类问题需要诊断信息才能定位。
+        If a specific app's icon won't hide, vanishes on its own, or fails to open when clicked in the panel, please use the [App compatibility form](https://github.com/imbbbbb/BarBar-support/issues/new?template=app.yml) instead.
 
-  - type: input
-    id: app
-    attributes:
-      label: 涉及哪个 app 的图标
-      description: 如果问题只出在某些图标上，写出是哪些。
-      placeholder: Surge、Googly Eyes
-
-  - type: dropdown
-    id: style
-    attributes:
-      label: 展开形态
-      options:
-        - 原地展开
-        - 下方面板
-        - 两种都有问题
-        - 和展开无关
-
-  - type: input
-    id: macos
-    attributes:
-      label: macOS 版本
-      placeholder: "26.1"
-    validations:
-      required: true
+        提交前先在 [Issues](https://github.com/imbbbbb/BarBar-support/issues?q=is%3Aissue) 搜一下，已有相同帖子在下面补充即可。
+        Search existing issues first; if yours is already reported, add your details there.
 
   - type: input
     id: version
     attributes:
-      label: BarBar 版本
-      description: 在设置窗口里能看到。
-      placeholder: "0.1"
+      label: BarBar 版本 / BarBar version
+      description: 「设置 → 关于」顶部显示的版本号 / Shown at the top of Settings → About
+      placeholder: "0.1.15"
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本与机型 / macOS version & Mac model
+      description: 例如 macOS 27.2.1 / MacBook Pro 14 (刘海屏) 或外接显示器 / e.g. macOS 27.2.1 / Mac mini + 1080p external display
+      placeholder: "macOS 27.2.1 / MacBook Pro 14"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 哪部分 / Where
+      options:
+        - 下方面板（弹出、点击、拖拽排序、外观）/ Panel below (popup, click, reorder, look)
+        - 本行展开与自动收起 / In-bar reveal & auto-collapse
+        - 设置窗口与图标分组 / Settings & icon groups
+        - 快捷键或鼠标悬停展开 / Shortcut or hover-to-reveal
+        - 检查更新与安装 / Updates & installation
+        - 其他 / Other
     validations:
       required: true
 
   - type: textarea
-    id: extra
+    id: what
     attributes:
-      label: 截图或补充
-      description: 菜单栏的截图往往比文字管用。
+      label: 发生了什么 / What happens
+      description: 看到了什么，本来应该怎样 / What you saw vs. what you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎么复现 / Steps to reproduce
+      description: 一步一步写清楚怎么触发 / Step by step
+      placeholder: |
+        1.
+        2.
+        3.
+
+  - type: textarea
+    id: shots
+    attributes:
+      label: 截图或录屏 / Screenshots
+      description: 把图片直接拖进输入框即可上传 / Drag and drop images here
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 诊断信息（可选）/ Diagnostics (optional)
+      description: "「设置 → 关于 → 导出诊断信息」生成的文本内容（不含截图与用户名路径）/ Contents from Settings → About → Export diagnostics"
+      render: markdown
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认 / Checks
+      options:
+        - label: 我搜过已有的 Issue 且看过了 README 的「常见问题」，没有重复 / I searched existing issues and checked the FAQ
+          required: true
+        - label: 我已升级到最新版 BarBar / I am running the latest version of BarBar
+          required: true

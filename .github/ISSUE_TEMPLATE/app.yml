@@ -1,0 +1,77 @@
+name: 应用兼容 / App compatibility
+description: 某款软件图标藏不住、莫名消失，或在面板里左键/右键打不开菜单 / A specific app's icon won't hide, disappears, or won't open from the panel
+title: "[兼容] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        维护者电脑上不一定装了你用的那款软件，这类问题全靠你贴上来的**诊断信息**定位。
+        The maintainer may not have that app installed — your **diagnostics** output is essential to investigate.
+
+        **获取方法 / How to get diagnostics：**
+        打开「BarBar 设置 → 关于 → 出了问题 → 导出诊断信息」，打开保存的 `.txt` 文件，全选复制贴到最下面一栏。
+        Open **BarBar Settings → About → Export diagnostics**, open the saved `.txt` file, and paste its full contents into the bottom field.
+
+        诊断信息只含版本号、权限状态和菜单栏应用的 bundle identifier，不含窗口标题、截图或带用户名的路径，贴之前可以自己看一眼。
+        Diagnostics contain only version numbers, permission states, and menu bar bundle identifiers — no screenshots, window titles, or personal file paths.
+
+  - type: input
+    id: app
+    attributes:
+      label: 涉及哪款应用 / Affected app
+      description: 应用名称（如果是小众或开源工具，顺便贴一下官网或 GitHub 链接方便复现）/ App name (and link if niche)
+      placeholder: "例如：Surge / Longshot / 某款开源工具链接"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: style
+    attributes:
+      label: 当前展开形态 / Reveal style
+      options:
+        - 下方面板 / In a panel below
+        - 本行展开 / In the menu bar
+        - 两种形态都有问题 / Happens in both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: 具体表现 / Symptom
+      options:
+        - 面板里左键点了没反应 / Left-clicking in panel does nothing
+        - 面板里右键弹不出菜单 / Right-clicking in panel fails
+        - 放进「隐藏」或「永久隐藏」但还是藏不掉 / Refuses to hide
+        - 明明在「常显」，图标却自己消失了 / Disappears even when Always visible
+        - 其他异常 / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 补充说明或截图 / Details or screenshots
+      description: 说说你的操作经过，有菜单栏截图可直接拖进来 / Any extra context or screenshots
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 诊断信息 / Diagnostics
+      description: 把「导出诊断信息」生成的完整文本整段粘贴进来 / Paste the full exported diagnostics text here
+      render: markdown
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认 / Checks
+      options:
+        - label: BarBar 和这款应用都安装在「应用程序」（/Applications）文件夹下 / Both BarBar and this app are in /Applications
+          required: true
+        - label: 我已升级到最新版 BarBar，且搜过没有重复的帖子 / I am on the latest version and searched existing issues
+          required: true

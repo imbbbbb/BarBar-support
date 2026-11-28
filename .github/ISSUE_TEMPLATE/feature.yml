@@ -1,18 +1,32 @@
-name: 功能建议
-description: 你希望 BarBar 还能做什么
-labels: [enhancement]
+name: 功能建议 / Feature request
+description: 想让 BarBar 多做点什么，或者换一种更顺手的交互 / Something BarBar could do, or do better
+title: "[建议] "
+labels: ["enhancement"]
 body:
-  - type: textarea
-    id: need
+  - type: markdown
     attributes:
-      label: 你想解决的问题
-      description: 先说你实际遇到的场景，而不是直接说要加什么按钮 —— 场景清楚了，
-        往往有更好的做法。
-    validations:
-      required: true
+      value: |
+        先在 [已有建议](https://github.com/imbbbbb/BarBar-support/issues?q=is%3Aissue+label%3Aenhancement) 里搜一下，有人提过的话点个 👍、在下面补充你的使用场景，比新开一帖更有用。
+        Search [existing requests](https://github.com/imbbbbb/BarBar-support/issues?q=is%3Aissue+label%3Aenhancement) first — adding a 👍 and your use case there helps more than opening a duplicate.
 
   - type: textarea
     id: idea
     attributes:
-      label: 你设想的做法
-      description: 可选。
+      label: 想要什么 / What you'd like
+      description: 一两句话说清楚想要的效果 / Describe it in a sentence or two
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么需要 / Why & when you'd use it
+      description: 什么日常场景下会用到，现在没有它时你是怎么将就的 / When this comes up in daily use, and how you work around it today
+    validations:
+      required: true
+
+  - type: textarea
+    id: refs
+    attributes:
+      label: 参考示例（可选）/ References (optional)
+      description: macOS 系统或其他工具里类似的交互、截图都可以贴进来 / Similar interactions in macOS or other tools; screenshots welcome
